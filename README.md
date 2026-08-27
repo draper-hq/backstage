@@ -1,3 +1,9 @@
+<p>
+  <a href="https://draperhq.com">
+    <img src="public/brand/draper-mark.png" alt="Draper" width="72" height="72">
+  </a>
+</p>
+
 # Backstage
 
 **The first version of Backstage was built ten minutes before a client call.**
@@ -35,14 +41,11 @@ Open the local URL, then press `P`. Drag the new tab into a separate window and 
 
 ## Demo features
 
-- Two-window slide synchronisation through `BroadcastChannel`
-- A 30-minute meeting timer
-- A one-click run of show
-- Responsive appendix routing for common client objections
+- Synchronised deck and presenter windows
+- A 30-minute timer with a one-click run of show
+- Direct appendix routes for common client objections
 - Per-slide `Ask`, `Why`, `Say`, and `Caution` prompts
-- Current and next slide states
-- Keyboard navigation
-- Second-screen setup guidance when the presenter tab opens
+- Keyboard navigation with second-screen setup guidance
 
 ## The two-window setup
 
@@ -54,15 +57,13 @@ The Remotion source for the demo above lives in `remotion/`. Run `npm run video:
 
 The fictional runbook in this public demo is safe to inspect. In a real implementation, keep private presenter data out of the public deck bundle. Load it from a local file or an authenticated presenter-only route, keyed by public slide IDs.
 
-The two-window demo uses the browser's `BroadcastChannel` API. Both windows must use the same origin.
-
 ## Design language
 
 Broadcast Modernism: Archivo Black, Public Sans, hard cuts, rundown logic, tally red, signal blue and status-only colour.
 
 All companies and results shown in this demo are fictional.
 
-Made by [Draper](https://draperhq.com).
+Built inside [Draper](https://draperhq.com). Released for anyone who presents work.
 
 ## License
 
