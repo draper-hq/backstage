@@ -1,10 +1,26 @@
 # Backstage
 
-Backstage adds a presenter window to any deck.
+**The first version of Backstage was built ten minutes before a client call.**
 
-Press `P`. A new tab opens with your timer, notes, slide controls and appendix routes. Share the deck window. Keep Backstage beside it.
+Our eight-slide deck had to carry a timer, private questions, research notes and an appendix we needed to reach without breaking eye contact.
 
-**[Open the live demo](https://backstage-deck-demo.draper-5413.chatgpt.site)**
+The client only needed the story.
+
+We needed somewhere to put everything behind it.
+
+So we added one key.
+
+Press `P` and the deck opens a private control window. The client keeps the clean presentation. We see the clock, the next question and the shortest route into the appendix.
+
+We used it that afternoon and kept it for the next call.
+
+Draper tells stories for founders. We spend days finding the line that makes a complicated company feel clear, but the story still has to survive thirty live minutes of interruptions, objections and good questions. Backstage helps the person presenting hold that room without putting their working notes on show.
+
+If you present for a living, you may have the same parts scattered across a phone timer, a document and twenty hidden slides. Backstage puts them beside the deck.
+
+We stripped out every client name and private note, rebuilt the example with fictional data, and released it under MIT.
+
+**[Open the live demo](https://backstage-deck-demo.draper-5413.chatgpt.site)** or fork it for your next call.
 
 [![Backstage dual-screen demo](public/backstage-dual-screen.gif)](public/backstage-dual-screen.mp4)
 
